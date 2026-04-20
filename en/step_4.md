@@ -1,8 +1,10 @@
-<h2 class="c-project-heading--task">Hide the message</h2>
+<h2 class="c-project-heading--task">Style the box</h2>
 
-You will style the secret message so it starts hidden and is ready to slide in later.
+You will turn the plain file box into something bright and bold.
 
-Stay in `style.css` and add the `.secret-message` rule underneath `.box-note`.
+### Step 1
+
+Go back to the `.secret-box` rule you just added and replace it with this brighter version.
 
 <div class="c-project-code">
 
@@ -11,18 +13,77 @@ Stay in `style.css` and add the `.secret-message` rule underneath `.box-note`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 43
-line_highlights: 45-52
+line_number_start: 15
+line_highlights: 17-29
 ---
 }
 
-.secret-message {
-  margin: 18px 0 0;
-  color: #a6005d;
-  font-weight: 700;
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.25s ease, transform 0.25s ease;
+.secret-box {
+  width: min(360px, 100%);
+  padding: 28px;
+  border: 6px solid #20113a;
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55), transparent 24%),
+    #ffffff;
+  box-shadow:
+    0 0 0 8px #ff4cb0,
+    0 18px 0 #20113a;
+  text-align: center;
+}
+--- /code ---
+
+</div>
+
+### Step 2
+
+Underneath `.secret-box`, add the `.box-label` rule to make the heading stand out.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 29
+line_highlights: 31-37
+---
+}
+
+.box-label {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #8cf5ff;
+}
+--- /code ---
+
+</div>
+
+### Step 3
+
+Underneath `.box-label`, add the `.box-note` rule so the cover story stays easy to read.
+
+When you finish, your stylesheet should have the `body`, `.secret-box`, `.box-label`, and `.box-note` rules in that order.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 37
+line_highlights: 39-43
+---
+}
+
+.box-note {
+  margin: 14px 0 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 --- /code ---
 
@@ -30,7 +91,7 @@ line_highlights: 45-52
 
 <h2 class="c-project-heading--task">Test</h2>
 
-The box should still be styled, but the secret note should now disappear.
+**Run your code:** The box should now look bright and bold, but the secret note should still be visible.
 
 <div class="c-project-output">
   <img src="images/step_4_output.png" alt="Observed project output after this step.">

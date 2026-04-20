@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Reveal it on hover</h2>
+<h2 class="c-project-heading--task">Hide the message</h2>
 
-You will make the hidden message slide into view when you hover over the box.
+You will style the secret message so it starts hidden and is ready to slide in later.
 
-Stay in `style.css` and add a hover rule underneath `.secret-message`.
+Stay in `style.css` and add the `.secret-message` rule underneath `.box-note`.
 
 <div class="c-project-code">
 
@@ -11,14 +11,18 @@ Stay in `style.css` and add a hover rule underneath `.secret-message`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 52
-line_highlights: 54-57
+line_number_start: 43
+line_highlights: 45-52
 ---
 }
 
-.secret-box:hover .secret-message {
-  opacity: 1;
-  transform: translateY(0);
+.secret-message {
+  margin: 18px 0 0;
+  color: #a6005d;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 --- /code ---
 
@@ -26,7 +30,7 @@ line_highlights: 54-57
 
 <h2 class="c-project-heading--task">Test</h2>
 
-When you hover over the box, the secret note should slide into view.
+The box should still be styled, but the secret note should now disappear.
 
 <div class="c-project-output">
   <img src="images/step_5_output.png" alt="Observed project output after this step.">

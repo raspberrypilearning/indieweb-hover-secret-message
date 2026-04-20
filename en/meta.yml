@@ -7,6 +7,7 @@ landing: true
 steps:
   - title: 'Add the secret note'
   - title: 'Add the page background'
+  - title: 'Make the box appear'
   - title: 'Style the box'
     completion:
       - 'engaged'
