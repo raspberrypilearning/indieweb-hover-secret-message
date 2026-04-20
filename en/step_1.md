@@ -1,45 +1,44 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Add the secret message</h2>
 
-A brief description - one or two sentences. 
+You will turn the plain file box into a hover target with one hidden message inside it.
 
---- print-only ---
+Open `index.html` and add one extra paragraph for the secret message inside the box.
 
-![ALT TEXT](images/IMAGE.png)
+<div class="c-project-code">
 
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 1
+line_highlights: 12-14
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indieweb Hover Secret Message</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="secret-box">
+      <p class="box-label">Routine File</p>
+      <p class="box-note">This file claims it contains only receipts and no rebellious field notes.</p>
+      <!-- Add one hidden message inside the same box. -->
+      <p class="secret-message">Agent memo: the pigeons joined the resistance, and frankly they made fair points.</p>
+    </main>
+  </body>
 </html>
+--- /code ---
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+<h2 class="c-project-heading--task">Test</h2>
 
-### You will need:
-- a
-- b
-- c
+You should see the new secret-agent note sitting inside the box for now.
+
+<div class="c-project-output">
+  <img src="images/step_1_output.png" alt="Observed project output after this step.">
+</div>

@@ -1,14 +1,18 @@
-title: Project title in sentence case
 hero_image: images/banner.png
 description: A short description of the project
 listed: false
 pdf: false
+title: 'Indieweb Hover Secret Message'
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: 'Add the secret message'
+  - title: 'Add the page background'
+  - title: 'Style the box'
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - 'engaged'
+  - title: 'Hide the message'
     completion:
-      - external
+      - 'internal'
+  - title: 'Reveal it on hover'
+    completion:
+      - 'external'

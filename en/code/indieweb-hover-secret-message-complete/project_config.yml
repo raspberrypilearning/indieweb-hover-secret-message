@@ -1,0 +1,4 @@
+name: "Indieweb Hover Secret Message"
+identifier: "indieweb-hover-secret-message-complete"
+type: 'html'
+build: true

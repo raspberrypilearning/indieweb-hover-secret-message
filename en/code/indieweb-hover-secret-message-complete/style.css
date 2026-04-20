@@ -1,0 +1,57 @@
+/* Style one innocent-looking box and reveal its secret on hover. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #20113a;
+  background: linear-gradient(180deg, #fff3a6, #ff9fda 55%, #8cf5ff 100%);
+}
+
+.secret-box {
+  width: min(360px, 100%);
+  padding: 28px;
+  border: 6px solid #20113a;
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55), transparent 24%),
+    #ffffff;
+  box-shadow:
+    0 0 0 8px #ff4cb0,
+    0 18px 0 #20113a;
+  text-align: center;
+}
+
+.box-label {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #8cf5ff;
+}
+
+.box-note {
+  margin: 14px 0 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.secret-message {
+  margin: 18px 0 0;
+  color: #a6005d;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.secret-box:hover .secret-message {
+  opacity: 1;
+  transform: translateY(0);
+}
