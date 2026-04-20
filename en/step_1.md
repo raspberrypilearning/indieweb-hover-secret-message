@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Add the secret message</h2>
+<h2 class="c-project-heading--task">Add the secret note</h2>
 
-You will turn the plain file box into a hover target with one hidden message inside it.
+You will add one hidden note inside the box.
 
-Open `index.html` and add one extra paragraph for the secret message inside the box.
+Open `index.html` and add one more paragraph for the secret note inside the box.
 
 <div class="c-project-code">
 
@@ -24,10 +24,10 @@ line_highlights: 12-14
   </head>
   <body>
     <main class="secret-box">
-      <p class="box-label">Routine File</p>
-      <p class="box-note">This file claims it contains only receipts and no rebellious field notes.</p>
-      <!-- Add one hidden message inside the same box. -->
-      <p class="secret-message">Agent memo: the pigeons joined the resistance, and frankly they made fair points.</p>
+      <p class="box-label">File Box</p>
+      <p class="box-note">This box says it only has boring papers.</p>
+      <!-- Add one hidden note inside the same box. -->
+      <p class="secret-message">Secret note: the toy dinosaur knows the password.</p>
     </main>
   </body>
 </html>
@@ -37,7 +37,7 @@ line_highlights: 12-14
 
 <h2 class="c-project-heading--task">Test</h2>
 
-You should see the new secret-agent note sitting inside the box for now.
+You should see the new secret note inside the box for now.
 
 <div class="c-project-output">
   <img src="images/step_1_output.png" alt="Observed project output after this step.">

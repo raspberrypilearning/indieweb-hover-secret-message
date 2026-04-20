@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Hide the message</h2>
 
-You will style the secret message so it starts invisible and ready to slide in later.
+You will style the secret message so it starts hidden and is ready to slide in later.
 
 Stay in `style.css` and add the `.secret-message` rule underneath `.box-note`.
 
@@ -30,7 +30,7 @@ line_highlights: 45-52
 
 <h2 class="c-project-heading--task">Test</h2>
 
-The box should still be styled, but the secret-agent note should now disappear.
+The box should still be styled, but the secret note should now disappear.
 
 <div class="c-project-output">
   <img src="images/step_4_output.png" alt="Observed project output after this step.">

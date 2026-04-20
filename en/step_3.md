@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Style the box</h2>
 
-You will turn the plain file box into something bright, chunky, and a bit suspicious.
+You will turn the plain file box into something bright and bold.
 
 ### Step 1
 
@@ -37,7 +37,7 @@ line_highlights: 17-29
 
 ### Step 2
 
-Underneath `.secret-box`, add the `.box-label` rule to make the heading look louder.
+Underneath `.secret-box`, add the `.box-label` rule to make the heading stand out.
 
 <div class="c-project-code">
 
@@ -64,7 +64,7 @@ line_highlights: 31-37
 
 ### Step 3
 
-Underneath `.box-label`, add the `.box-note` rule so the cover story stays easy to read.
+Underneath `.box-label`, add the `.box-note` rule so the text stays easy to read.
 
 When you finish, your stylesheet should have the `body`, `.secret-box`, `.box-label`, and `.box-note` rules in that order.
 
@@ -91,7 +91,7 @@ line_highlights: 39-43
 
 <h2 class="c-project-heading--task">Test</h2>
 
-**Run your code:** The box should now look bright and chunky, but the secret message should still be visible.
+**Run your code:** The box should now look bright and bold, but the secret message should still be visible.
 
 <div class="c-project-output">
   <img src="images/step_3_output.png" alt="Observed project output after this step.">

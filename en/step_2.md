@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Add the page background</h2>
 
-You will centre the page on a loud background so the box has room to feel suspicious.
+You will centre the page on a bright background so the box stands out.
 
 Open `style.css` and start by adding these `*` and `body` rules.
 
@@ -14,7 +14,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1-15
 ---
-/* Style one innocent-looking box and reveal its secret on hover. */
+/* Style one simple box and reveal its secret on hover. */
 * {
   box-sizing: border-box;
 }
@@ -35,7 +35,7 @@ body {
 
 <h2 class="c-project-heading--task">Test</h2>
 
-**Run your code:** You should now see the page sitting on a bright background, even though the box still looks plain.
+**Run your code:** You should now see the page on a bright background, even though the box still looks plain.
 
 <div class="c-project-output">
   <img src="images/step_2_output.png" alt="Observed project output after this step.">

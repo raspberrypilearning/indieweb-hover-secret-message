@@ -1,11 +1,11 @@
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a simple box that shows a hidden note when you hover over it
 listed: false
 pdf: false
 title: 'Indieweb Hover Secret Message'
 landing: true
 steps:
-  - title: 'Add the secret message'
+  - title: 'Add the secret note'
   - title: 'Add the page background'
   - title: 'Style the box'
     completion:
