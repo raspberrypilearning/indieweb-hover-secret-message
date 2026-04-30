@@ -1,4 +1,4 @@
-/* Change these values to give the leaked file terminally bad taste. */
+/* Render-only stylesheet for tutorial step screenshots. */
 :root {
   --page-bg: #26132c;
   --ink: #2a041e;
@@ -42,7 +42,6 @@ body {
   box-shadow:
     0 14px 0 var(--shadow-color),
     0 26px 30px rgba(0, 0, 0, 0.4);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .eyebrow {
@@ -85,4 +84,62 @@ p {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
+}
+
+body.step-4,
+body.step-5,
+body.step-6,
+body.step-7,
+body.step-8 {
+  --page-bg: #120014;
+  --ink: #26001b;
+  --panel-bg: #ffd8f2;
+  --accent: #7eeeff;
+  --accent-hot: #ff73c6;
+  --accent-warning: #ffe45a;
+  --shadow-color: #170011;
+  --border-size: 5px;
+  --corner-size: 18px;
+  --body-font: Verdana, Geneva, sans-serif;
+  --box-width: 35rem;
+}
+
+body.step-5 .cover-note,
+body.step-6 .cover-note,
+body.step-7 .cover-note,
+body.step-8 .cover-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 3px dashed var(--ink);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.48);
+  transform: rotate(-1deg);
+}
+
+body.step-6 .secret-message,
+body.step-7 .secret-message,
+body.step-8 .secret-message {
+  margin: 18px 0 0;
+  padding: 14px 16px;
+  border: 3px solid var(--accent-hot);
+  border-radius: 18px;
+  background: rgba(255, 228, 90, 0.28);
+  color: #9d004e;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(14px) scale(0.96);
+}
+
+body.step-7 .secret-box,
+body.step-8 .secret-box {
+  transform: rotate(-0.8deg) translateY(3px);
+  box-shadow:
+    0 18px 0 var(--shadow-color),
+    0 30px 34px rgba(0, 0, 0, 0.42);
+}
+
+body.step-8 .secret-message {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }

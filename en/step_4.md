@@ -1,10 +1,22 @@
-<h2 class="c-project-heading--task">Style the box</h2>
+<h2 class="c-project-heading--task">Give it terminally bad taste</h2>
 
-You will turn the plain file box into something bright and bold.
+Change the custom properties at the top of `style.css` so the leaked file gets darker, louder, and more suspicious.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Make this change</h2>
 
-Go back to the `.secret-box` rule you just added and replace it with this brighter version.
+Open `style.css` and edit the values inside `:root`. These custom properties control the page background, the panel colours, the accent colours, the border size, the font, and the file width.
+
+<div class="c-project-tip">
+
+<h3>Tip</h3>
+
+<p>Pick colours that feel like a cursed profile upload, a fake warning sticker, or a leaked file that absolutely should not exist.</p>
+
+<p>Small value changes can make the page feel more sugary, more dramatic, or more chaotic.</p>
+
+<p><a href="https://www.google.com/search?q=web+colour+picker" target="_blank" rel="noopener noreferrer">Open the Google web colour picker in a new tab</a> if you want help choosing colours.</p>
+
+</div>
 
 <div class="c-project-code">
 
@@ -13,86 +25,31 @@ Go back to the `.secret-box` rule you just added and replace it with this bright
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 15
-line_highlights: 17-29
+line_number_start: 1
+line_highlights: 2-13
 ---
-}
-
-.secret-box {
-  width: min(360px, 100%);
-  padding: 28px;
-  border: 6px solid #20113a;
-  border-radius: 24px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.55), transparent 24%),
-    #ffffff;
-  box-shadow:
-    0 0 0 8px #ff4cb0,
-    0 18px 0 #20113a;
-  text-align: center;
+/* Change these values to give the leaked file terminally bad taste. */
+:root {
+  --page-bg: #120014;
+  --ink: #26001b;
+  --panel-bg: #ffd8f2;
+  --accent: #7eeeff;
+  --accent-hot: #ff73c6;
+  --accent-warning: #ffe45a;
+  --shadow-color: #170011;
+  --border-size: 5px;
+  --corner-size: 18px;
+  --body-font: Verdana, Geneva, sans-serif;
+  --box-width: 35rem;
 }
 --- /code ---
 
 </div>
 
-### Step 2
+## Now run your code
 
-Underneath `.secret-box`, add the `.box-label` rule to make the heading stand out.
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 29
-line_highlights: 31-37
----
-}
-
-.box-label {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 0 #8cf5ff;
-}
---- /code ---
-
-</div>
-
-### Step 3
-
-Underneath `.box-label`, add the `.box-note` rule so the cover story stays easy to read.
-
-When you finish, your stylesheet should have the `body`, `.secret-box`, `.box-label`, and `.box-note` rules in that order.
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 37
-line_highlights: 39-43
----
-}
-
-.box-note {
-  margin: 14px 0 0;
-  font-size: 1rem;
-  line-height: 1.5;
-}
---- /code ---
-
-</div>
-
-<h2 class="c-project-heading--task">Test</h2>
-
-**Run your code:** The box should now look bright and bold, but the secret note should still be visible.
+The page should still show the same text, but the colours and the overall mood should feel much more cursed.
 
 <div class="c-project-output">
-  <img src="images/step_4_output.png" alt="Observed project output after this step.">
+  <img src="images/step_4_output.png" alt="Expected project output after step 4 showing darker colours and louder leaked-file styling.">
 </div>

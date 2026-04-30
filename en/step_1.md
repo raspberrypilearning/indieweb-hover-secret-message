@@ -1,8 +1,10 @@
-<h2 class="c-project-heading--task">Add the secret note</h2>
+<h2 class="c-project-heading--task">Add the leaked file header</h2>
 
-You will add one hidden note inside the box.
+Add the visible header inside `<main class="secret-box">` so the page stops looking empty.
 
-Open `index.html` and add one more paragraph for the secret note inside the box.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Open `index.html`. The starter file has an empty `<main>` element, so add the eyebrow, the main heading, and the mood line inside it.
 
 <div class="c-project-code">
 
@@ -12,22 +14,21 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 12-14
+line_highlights: 10-14
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Indieweb Hover Secret Message</title>
+    <title>chatlog_FINAL-final_REAL.txt</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main class="secret-box">
-      <p class="box-label">File Box</p>
-      <p class="box-note">This box says it only has boring papers.</p>
-      <!-- Add one hidden note inside the same box. -->
-      <p class="secret-message">Secret note: the toy dinosaur knows the password.</p>
+      <p class="eyebrow">Recovered hover artefact // cached at 2:17am</p>
+      <h1>chatlog_FINAL-final_REAL.txt</h1>
+      <p class="status">mood: blocked by the glitter cursor</p>
     </main>
   </body>
 </html>
@@ -35,10 +36,10 @@ line_highlights: 12-14
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-You should see the new secret note inside the box for now.
+You should see the leaked file header inside the box instead of an empty page section.
 
 <div class="c-project-output">
-  <img src="images/step_1_output.png" alt="Observed project output after this step.">
+  <img src="images/step_1_output.png" alt="Expected project output after step 1 showing the leaked file header inside the box.">
 </div>

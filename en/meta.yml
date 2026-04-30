@@ -1,19 +1,21 @@
 hero_image: images/banner.png
-description: Make a simple box that shows a hidden note when you hover over it
+description: Make a cursed file that reveals a leaked note when you hover over it
 listed: false
 pdf: false
-title: 'Indieweb Hover Secret Message'
+title: 'Indieweb Leaked Hover File'
 landing: true
 steps:
-  - title: 'Add the secret note'
-  - title: 'Add the page background'
-  - title: 'Make the box appear'
-  - title: 'Style the box'
+  - title: 'Add the leaked file header'
+  - title: 'Add the fake cover story'
+  - title: 'Add the hidden note'
+  - title: 'Give it terminally bad taste'
+  - title: 'Style the cover story'
     completion:
       - 'engaged'
-  - title: 'Hide the message'
+  - title: 'Hide the leaked note'
+  - title: 'Nudge the file on hover'
     completion:
       - 'internal'
-  - title: 'Reveal it on hover'
+  - title: 'Reveal the leaked note'
     completion:
       - 'external'

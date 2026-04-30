@@ -1,8 +1,10 @@
-<h2 class="c-project-heading--task">Hide the message</h2>
+<h2 class="c-project-heading--task">Style the cover story</h2>
 
-You will style the secret message so it starts hidden and is ready to slide in later.
+Give the cover story its own suspicious sticker look so it stands apart from the rest of the text.
 
-Stay in `style.css` and add the `.secret-message` rule underneath `.box-note`.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Stay in `style.css` and add this `.cover-note` rule underneath the `p` rule.
 
 <div class="c-project-code">
 
@@ -11,27 +13,28 @@ Stay in `style.css` and add the `.secret-message` rule underneath `.box-note`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 43
-line_highlights: 45-52
+line_number_start: 88
+line_highlights: 90-98
 ---
 }
 
-.secret-message {
-  margin: 18px 0 0;
-  color: #a6005d;
-  font-weight: 700;
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.25s ease, transform 0.25s ease;
+.cover-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 3px dashed var(--ink);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.48);
+  transform: rotate(-1deg);
 }
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-The box should still be styled, but the secret note should now disappear.
+The cover story should now look like a suspicious label stuck onto the file.
 
 <div class="c-project-output">
-  <img src="images/step_5_output.png" alt="Observed project output after this step.">
+  <img src="images/step_5_output.png" alt="Expected project output after step 5 showing the cover story styled like a suspicious label.">
 </div>

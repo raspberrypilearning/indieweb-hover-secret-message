@@ -1,42 +1,35 @@
-<h2 class="c-project-heading--task">Add the page background</h2>
+<h2 class="c-project-heading--task">Add the fake cover story</h2>
 
-You will centre the page on a bright background so the box stands out.
+Add one cover-note paragraph underneath the mood line so the file pretends to be normal.
 
-Open `style.css` and start by adding these `*` and `body` rules.
+<h2 class="c-project-heading--explainer">Make this change</h2>
+
+Stay in `index.html` and put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: style.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 1-15
+line_number_start: 10
+line_highlights: 15
 ---
-/* Style one simple box and reveal its secret on hover. */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-  color: #20113a;
-  background: linear-gradient(180deg, #fff3a6, #ff9fda 55%, #8cf5ff 100%);
-}
+    <main class="secret-box">
+      <p class="eyebrow">Recovered hover artefact // cached at 2:17am</p>
+      <h1>chatlog_FINAL-final_REAL.txt</h1>
+      <p class="status">mood: blocked by the glitter cursor</p>
+      <p class="cover-note">Hover over this file if you enjoy fake evidence and catastrophic profile decisions.</p>
+    </main>
 --- /code ---
 
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
+## Now run your code
 
-**Run your code:** You should now see the page on a bright background, even though the box still looks plain.
+You should see the extra cover story paragraph underneath the mood line.
 
 <div class="c-project-output">
-  <img src="images/step_2_output.png" alt="Observed project output after this step.">
+  <img src="images/step_2_output.png" alt="Expected project output after step 2 showing the leaked file header and the fake cover story paragraph.">
 </div>
