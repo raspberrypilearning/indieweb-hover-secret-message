@@ -2,8 +2,6 @@
 
 Make the secret message disappear so it can be revealed later with hover.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
 Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`. Setting the text `opacity` to `0` makes it invisible!
 
 <div class="c-project-code">

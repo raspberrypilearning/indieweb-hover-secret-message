@@ -2,11 +2,7 @@
 
 Make the whole file shift slightly when someone hovers over it so the reveal feels more dramatic.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
-Stay in `style.css` and add this `.secret-box:hover` rule underneath `.secret-message`.
-
-This rule only works while the mouse is over `.secret-box`. It tilts the whole file and changes the shadow so the hover feels more dramatic.
+Stay in `style.css` and add this `.secret-box:hover` rule underneath `.secret-message`. This rule only works while the mouse is over `.secret-box`. It tilts the whole file and changes the shadow so the hover feels more dramatic.
 
 <div class="c-project-code">
 

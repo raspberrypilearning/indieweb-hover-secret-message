@@ -2,8 +2,6 @@
 
 Add the visible header inside `<main class="secret-box">` so the page stops looking empty.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
 ## Step 1
 Run the code to see the unstyled page.
 

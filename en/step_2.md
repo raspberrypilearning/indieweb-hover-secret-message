@@ -1,12 +1,8 @@
 <h2 class="c-project-heading--task">Add the fake cover story</h2>
 
-Add one cover-note paragraph underneath the mood line so the file pretends to be normal. When the user hovers over this text, more words will appear beneath. 
+Add one cover-note paragraph that the user will see when they load the page. When the user hovers over this text, more words will appear beneath. 
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
-Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`. It can say anything you like.
-
-This extra paragraph gives the file a fake explanation on the front. The `cover-note` class lets you style it separately from the rest of the text later.
+Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`. It can say anything you like!
 
 <div class="c-project-code">
 

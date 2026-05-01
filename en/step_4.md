@@ -1,9 +1,5 @@
 <h2 class="c-project-heading--task">Give it terminally bad taste</h2>
 
-Change the custom properties at the top of `style.css` so the leaked file gets darker, louder, and more suspicious.
-
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
 Open `style.css` and edit the values inside `:root`. These custom properties control the page background, the panel colours, the accent colours, the border size, the font, and the file width.
 
 <div class="c-project-tip">

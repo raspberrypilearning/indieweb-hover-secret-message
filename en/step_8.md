@@ -2,11 +2,7 @@
 
 Show the hidden note when the file is hovered so the whole trick finally works.
 
-<h2 class="c-project-heading--explainer">Make this change</h2>
-
-Stay in `style.css` and add this `.secret-box:hover .secret-message` rule underneath `.secret-box:hover`.
-
-This rule only works while the mouse is over `.secret-box`. It makes `.secret-message` visible again by changing the `opacity` to `1` and moving the note back into place.
+Stay in `style.css` and add this `.secret-box:hover .secret-message` rule underneath `.secret-box:hover`. This rule only works while the mouse is over `.secret-box`. It makes `.secret-message` visible again by changing the `opacity` to `1` and moving the note back into place.
 
 <div class="c-project-code">
 
