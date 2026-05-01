@@ -4,7 +4,11 @@ Add the visible header inside `<main class="secret-box">` so the page stops look
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-The starter file has an empty `<main>` element, so add the eyebrow, the main heading, and the mood line inside it.
+## Step 1
+Run the code to see the unstyled page.
+
+## Step 2
+The starter file has an empty `<main>` element, so add the eyebrow, the main heading, and the mood line inside it:
 
 <div class="c-project-code">
 
@@ -14,7 +18,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 10-14
+line_highlights: 10-12
 ---
 <html lang="en">
   <head>

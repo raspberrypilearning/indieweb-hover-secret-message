@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Add the fake cover story</h2>
 
-Add one cover-note paragraph underneath the mood line so the file pretends to be normal.
+Add one cover-note paragraph underneath the mood line so the file pretends to be normal. When the user hovers over this text, more words will appear beneath. 
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`.
+Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`. It can say anything you like.
 
 <div class="c-project-code">
 
@@ -13,8 +13,8 @@ Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 15
+line_number_start: 9
+line_highlights: 13
 ---
     <main class="secret-box">
       <p class="eyebrow">Recovered hover artefact // cached at 2:17am</p>

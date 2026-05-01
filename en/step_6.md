@@ -1,10 +1,10 @@
-<h2 class="c-project-heading--task">Hide the leaked note</h2>
+<h2 class="c-project-heading--task">Hide the secret message</h2>
 
-Make the leaked note disappear so it can be revealed later with hover.
+Make the secret message disappear so it can be revealed later with hover.
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`.
+Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`. Setting the text `opacity` to `0` makes it invisible!
 
 <div class="c-project-code">
 
@@ -34,10 +34,22 @@ line_highlights: 100-111
 
 </div>
 
+<div class="c-project-tip">
+
+<h3>Tip</h3>
+
+<p>Pick colours and styles you like by editing the values.</p>
+
+<p>Small value changes can make the page feel really different!</p>
+
+<p><a href="https://www.google.com/search?q=web+colour+picker" target="_blank" rel="noopener noreferrer">Open the Google web colour picker in a new tab</a> if you want help choosing colours.</p>
+
+</div>
+
 ## Now run your code
 
-The leaked note should disappear, even though it is still in the HTML file.
+The secret message should disappear, even though it is still in the HTML file.
 
 <div class="c-project-output">
-  <img src="images/step_6_output.png" alt="Expected project output after step 6 showing the leaked note hidden from view.">
+  <img src="images/step_6_output.png" alt="Expected project output after step 6 showing the secret message hidden from view.">
 </div>
