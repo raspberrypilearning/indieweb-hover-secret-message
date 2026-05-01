@@ -4,7 +4,7 @@ Add one cover-note paragraph underneath the mood line so the file pretends to be
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`.
+Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`.
 
 <div class="c-project-code">
 

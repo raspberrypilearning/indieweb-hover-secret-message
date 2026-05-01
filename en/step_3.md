@@ -4,7 +4,7 @@ Add one more paragraph underneath the cover story. This is the leaked note that 
 
 <h2 class="c-project-heading--explainer">Make this change</h2>
 
-Stay in `index.html` and add the new paragraph inside `<main class="secret-box">`, underneath `<p class="cover-note">`.
+Add the new paragraph inside `<main class="secret-box">`, underneath `<p class="cover-note">`.
 
 <div class="c-project-code">
 
