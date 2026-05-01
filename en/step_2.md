@@ -6,6 +6,8 @@ Add one cover-note paragraph underneath the mood line so the file pretends to be
 
 Put the new paragraph inside `<main class="secret-box">`, underneath `<p class="status">`. It can say anything you like.
 
+This extra paragraph gives the file a fake explanation on the front. The `cover-note` class lets you style it separately from the rest of the text later.
+
 <div class="c-project-code">
 
 --- code ---

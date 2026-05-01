@@ -18,6 +18,8 @@ Open `style.css` and edit the values inside `:root`. These custom properties con
 
 </div>
 
+These custom properties store the main colours and sizes for the page. Changing them updates lots of the design without rewriting every CSS rule.
+
 <div class="c-project-code">
 
 --- code ---

@@ -10,6 +10,8 @@ Run the code to see the unstyled page.
 ## Step 2
 The starter file has an empty `<main>` element, so add the eyebrow, the main heading, and the mood line inside it:
 
+These tags create the visible file header. The class names give you hooks to style each part later in `style.css`.
+
 <div class="c-project-code">
 
 --- code ---

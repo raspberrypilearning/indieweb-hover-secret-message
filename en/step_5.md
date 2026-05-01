@@ -6,6 +6,8 @@ Give the cover story its own suspicious sticker look so it stands apart from the
 
 Stay in `style.css` and add this `.cover-note` rule underneath the `p` rule.
 
+This rule only styles the paragraph with class `cover-note`. It turns the plain text into a separate sticker-like block.
+
 <div class="c-project-code">
 
 --- code ---

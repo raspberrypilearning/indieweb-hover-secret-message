@@ -6,6 +6,8 @@ Add one more paragraph underneath the cover story. This is the secret message th
 
 Add the new paragraph inside `<main class="secret-box">`, underneath `<p class="cover-note">`.
 
+This paragraph is the secret message that will be hidden and revealed later. Giving it the `secret-message` class makes it easy to target with CSS.
+
 <div class="c-project-code">
 
 --- code ---
