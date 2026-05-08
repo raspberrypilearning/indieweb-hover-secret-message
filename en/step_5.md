@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Style the cover story</h2>
+<h2 class="c-project-heading--task">Hide the secret message</h2>
 
-Give the cover story its own suspicious sticker look so it stands apart from the rest of the text.
+Make the secret message disappear so it can be revealed later with hover.
 
-Stay in `style.css` and add this `.cover-note` rule underneath the `p` rule. This rule only styles the paragraph with class `cover-note`. It turns the plain text into a separate sticker-like block.
+Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`. Setting the text `opacity` to `0` makes it invisible!
 
 <div class="c-project-code">
 
@@ -11,19 +11,22 @@ Stay in `style.css` and add this `.cover-note` rule underneath the `p` rule. Thi
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 88
-line_highlights: 90-98
+line_number_start: 98
+line_highlights: 100-111
 ---
 }
 
-.cover-note {
-  margin-top: 18px;
+.secret-message {
+  margin: 18px 0 0;
   padding: 14px 16px;
-  border: 3px dashed var(--ink);
+  border: 3px solid var(--accent-hot);
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.62);
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.48);
-  transform: rotate(-1deg);
+  background: rgba(255, 228, 90, 0.28);
+  color: #9d004e;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(14px) scale(0.96);
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 --- /code ---
 
@@ -43,8 +46,8 @@ line_highlights: 90-98
 
 ## Now run your code
 
-The cover story should now look like a suspicious label stuck onto the file. 
+The secret message should disappear, even though it is still in the HTML file.
 
 <div class="c-project-output">
-  <img src="images/step_5_output.png" alt="Expected project output after step 5 showing the cover story styled like a suspicious label.">
+  <img src="images/step_5_output.png" alt="Expected project output after step 5 showing the secret message hidden from view.">
 </div>

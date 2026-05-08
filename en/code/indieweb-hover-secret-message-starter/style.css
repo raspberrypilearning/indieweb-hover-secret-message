@@ -1,16 +1,16 @@
 /* Change these values to give the leaked file terminally bad taste. */
 :root {
-  --page-bg: #26132c;
-  --ink: #2a041e;
-  --panel-bg: #fff2fb;
-  --accent: #8ce8ff;
+  --page-bg: #120014;
+  --ink: #26001b;
+  --panel-bg: #ffd8f2;
+  --accent: #7eeeff;
   --accent-hot: #ff73c6;
   --accent-warning: #ffe45a;
-  --shadow-color: #22001a;
-  --border-size: 4px;
-  --corner-size: 20px;
-  --body-font: Arial, sans-serif;
-  --box-width: 34rem;
+  --shadow-color: #170011;
+  --border-size: 5px;
+  --corner-size: 18px;
+  --body-font: Verdana, Geneva, sans-serif;
+  --box-width: 35rem;
 }
 
 * {
@@ -24,8 +24,8 @@ body {
   place-items: center;
   padding: 24px;
   background:
-    radial-gradient(circle at top, rgba(255, 106, 199, 0.22), transparent 26%),
-    radial-gradient(circle at 85% 18%, rgba(140, 232, 255, 0.16), transparent 18%),
+    radial-gradient(circle at top, rgba(255, 115, 198, 0.24), transparent 26%),
+    radial-gradient(circle at 85% 18%, rgba(126, 238, 255, 0.18), transparent 18%),
     linear-gradient(180deg, #09000d, var(--page-bg));
   color: var(--ink);
   font-family: var(--body-font);

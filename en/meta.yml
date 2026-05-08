@@ -8,7 +8,6 @@ steps:
   - title: 'Add the leaked file header'
   - title: 'Add the fake cover story'
   - title: 'Add the hidden note'
-  - title: 'Give it terminally bad taste'
   - title: 'Style the cover story'
     completion:
       - 'engaged'

@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Nudge the file on hover</h2>
+<h2 class="c-project-heading--task">Reveal the leaked note</h2>
 
-Make the whole file shift slightly when someone hovers over it so the reveal feels more dramatic.
+Show the hidden note when the file is hovered so the whole trick finally works.
 
-Stay in `style.css` and add this `.secret-box:hover` rule underneath `.secret-message`. This rule only works while the mouse is over `.secret-box`. It tilts the whole file and changes the shadow so the hover feels more dramatic.
+Stay in `style.css` and add this `.secret-box:hover .secret-message` rule underneath `.secret-box:hover`. This rule only works while the mouse is over `.secret-box`. It makes `.secret-message` visible again by changing the `opacity` to `1` and moving the note back into place.
 
 <div class="c-project-code">
 
@@ -11,16 +11,14 @@ Stay in `style.css` and add this `.secret-box:hover` rule underneath `.secret-me
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 111
-line_highlights: 113-118
+line_number_start: 118
+line_highlights: 120-123
 ---
 }
 
-.secret-box:hover {
-  transform: rotate(-0.8deg) translateY(3px);
-  box-shadow:
-    0 18px 0 var(--shadow-color),
-    0 30px 34px rgba(0, 0, 0, 0.42);
+.secret-box:hover .secret-message {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 --- /code ---
 
@@ -28,8 +26,8 @@ line_highlights: 113-118
 
 ## Now run your code
 
-When you hover over the file, the box should tilt and drop slightly, but the leaked note should still stay hidden.
+When you hover over the file, the leaked note should appear underneath the cover story.
 
 <div class="c-project-output">
-  <img src="images/step_7_output.png" alt="Expected project output after step 7 showing the file shifted slightly on hover while the leaked note stays hidden.">
+  <img src="images/step_7_output.png" alt="Expected project output after step 7 showing the leaked note revealed on hover.">
 </div>

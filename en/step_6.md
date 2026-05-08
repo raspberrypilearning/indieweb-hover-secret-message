@@ -1,8 +1,8 @@
-<h2 class="c-project-heading--task">Hide the secret message</h2>
+<h2 class="c-project-heading--task">Nudge the file on hover</h2>
 
-Make the secret message disappear so it can be revealed later with hover.
+Make the whole file shift slightly when someone hovers over it so the reveal feels more dramatic.
 
-Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`. Setting the text `opacity` to `0` makes it invisible!
+Stay in `style.css` and add this `.secret-box:hover` rule underneath `.secret-message`. This rule only works while the mouse is over `.secret-box`. It tilts the whole file and changes the shadow so the hover feels more dramatic.
 
 <div class="c-project-code">
 
@@ -11,43 +11,25 @@ Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 98
-line_highlights: 100-111
+line_number_start: 111
+line_highlights: 113-118
 ---
 }
 
-.secret-message {
-  margin: 18px 0 0;
-  padding: 14px 16px;
-  border: 3px solid var(--accent-hot);
-  border-radius: 18px;
-  background: rgba(255, 228, 90, 0.28);
-  color: #9d004e;
-  font-weight: 700;
-  opacity: 0;
-  transform: translateY(14px) scale(0.96);
-  transition: opacity 0.25s ease, transform 0.25s ease;
+.secret-box:hover {
+  transform: rotate(-0.8deg) translateY(3px);
+  box-shadow:
+    0 18px 0 var(--shadow-color),
+    0 30px 34px rgba(0, 0, 0, 0.42);
 }
 --- /code ---
 
 </div>
 
-<div class="c-project-tip">
-
-<h3>Tip</h3>
-
-<p>Pick colours and styles you like by editing the values.</p>
-
-<p>Small value changes can make the page feel really different!</p>
-
-<p><a href="https://www.google.com/search?q=web+colour+picker" target="_blank" rel="noopener noreferrer">Open the Google web colour picker in a new tab</a> if you want help choosing colours.</p>
-
-</div>
-
 ## Now run your code
 
-The secret message should disappear, even though it is still in the HTML file.
+When you hover over the file, the box should tilt and drop slightly, but the leaked note should still stay hidden.
 
 <div class="c-project-output">
-  <img src="images/step_6_output.png" alt="Expected project output after step 6 showing the secret message hidden from view.">
+  <img src="images/step_6_output.png" alt="Expected project output after step 6 showing the file shifted slightly on hover while the leaked note stays hidden.">
 </div>
