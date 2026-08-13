@@ -1,6 +1,6 @@
 hero_image: images/banner.png
 description: Make a cursed file that reveals a leaked note when you hover over it
-listed: false
+listed: true
 pdf: false
 title: 'Indieweb Leaked Hover File'
 landing: true
