@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Style the cover story</h2>
 
-Give the cover story its own suspicious sticker look so it stands apart from the rest of the text.
+Give the cover story its own suspicious sticker look so it stands out from the rest of the text.
 
 Stay in `style.css` and add this `.cover-note` rule underneath the `p` rule. This rule only styles the paragraph with class `cover-note`. It turns the plain text into a separate sticker-like block.
 
@@ -35,7 +35,7 @@ line_highlights: 90-98
 
 <p>Pick colours and styles you like by editing the values.</p>
 
-<p>Small value changes can make the page feel really different!</p>
+<p>Small value changes can make the page feel really different.</p>
 
 <p><a href="https://www.google.com/search?q=web+colour+picker" target="_blank" rel="noopener noreferrer">Open the Google web colour picker in a new tab</a> if you want help choosing colours.</p>
 

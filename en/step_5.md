@@ -2,7 +2,7 @@
 
 Make the secret message disappear so it can be revealed later with hover.
 
-Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`. Setting the text `opacity` to `0` makes it invisible!
+Stay in `style.css` and add this `.secret-message` rule underneath `.cover-note`. Setting the text `opacity` to `0` makes it invisible.
 
 <div class="c-project-code">
 
@@ -38,7 +38,7 @@ line_highlights: 100-111
 
 <p>Pick colours and styles you like by editing the values.</p>
 
-<p>Small value changes can make the page feel really different!</p>
+<p>Small value changes can make the page feel really different.</p>
 
 <p><a href="https://www.google.com/search?q=web+colour+picker" target="_blank" rel="noopener noreferrer">Open the Google web colour picker in a new tab</a> if you want help choosing colours.</p>
 

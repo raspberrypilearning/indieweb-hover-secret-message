@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Add the hidden note</h2>
 
-Add one more paragraph underneath the cover story. This paragraph is the secret message that will be hidden and revealed later. Giving it the `secret-message` class makes it easy to target with CSS.
+Add another paragraph underneath the cover story. This paragraph is the secret message that will be hidden and revealed later. Giving it the `secret-message` class makes it easy to target with CSS.
 
 Add the new paragraph inside `<main class="secret-box">`, underneath `<p class="cover-note">`.
 
